@@ -32,6 +32,11 @@ This is a code book that describes the variables, the data, and any transformati
 
 This is the tidy dataset produced by my R script. It is included just for reference. You can generate the same dataset using the "run_analysis.R" file and the accelerometers data set.
 
+To view this file in a more friendly way, you can run the following code in R:
+
+	newdata2 <- read.table("tidydata.txt", header=TRUE)
+	View(newdata2)
+
 * README.md
 
 It is the file you are looking at describing how the files are and how they works.
