@@ -48,14 +48,22 @@ Besides a basic environment for R, you may need to download and install the foll
 * reshape2 package: http://cran.r-project.org/web/packages/reshape2/index.html
 
 ## How to run the analysis
-1. First, fork the repository using Git into your computer or download it through the "Download ZIP" button on the right panel of GitHub.
+1. First, fork the repository into your computer using Git, or download it through the "Download ZIP" button on the right panel of GitHub and unzip it.
 
 2. Download the dataset from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 and unzip it under the same folder with the "run_analysis.R" file.
 
-3. Install any packages if necessary.
+3. Start R. Install any packages if necessary, i.e., run the following code if you need:
 
-4. Run the "run_analysis.R" script in R.
+	install.packages("plyr")
+	install.packages("reshape2")
+
+4. Change the working directory to the foler containing the "run_analysis.R" file using code:
+
+	# you need to change the path into your own path
+	setwd("path/to/your/folder")
+
+5. Run the "run_analysis.R" script in R.
 
 That's all, thanks for your attention. Hope it helps.
