@@ -44,7 +44,7 @@ View(newdata2)
 
 * README.md
 
-It is the file you are looking at describing how the files are and how they works.
+It is the file you are looking at describing what the files are and how they works.
 
 ## Additional packages required
 Besides a basic environment for R, you may need to download and install the following R packages:
