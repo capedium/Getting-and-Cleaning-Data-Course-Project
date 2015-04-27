@@ -65,9 +65,9 @@ and unzip it under the same folder with the "run_analysis.R" file.
 
 4. Change the working directory to the foler containing the "run_analysis.R" file using code:
 
-```R
+	```R
 	setwd("path/to/your/folder")
-```
+	```
 
 5. Run the "run_analysis.R" script in R.
 
