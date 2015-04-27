@@ -58,10 +58,10 @@ and unzip it under the same folder with the "run_analysis.R" file.
 
 3. Start R. Install any packages if necessary, i.e., run the following code if you need:
 
-```R
+	```R
 	install.packages("plyr")
 	install.packages("reshape2")
-```
+	```
 
 4. Change the working directory to the foler containing the "run_analysis.R" file using code:
 
