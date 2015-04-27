@@ -59,14 +59,14 @@ and unzip it under the same folder with the "run_analysis.R" file.
 3. Start R. Install any packages if necessary, i.e., run the following code if you need:
 
 ```R
-install.packages("plyr")
-install.packages("reshape2")
+	install.packages("plyr")
+	install.packages("reshape2")
 ```
 
 4. Change the working directory to the foler containing the "run_analysis.R" file using code:
 
 ```R
-setwd("path/to/your/folder")
+	setwd("path/to/your/folder")
 ```
 
 5. Run the "run_analysis.R" script in R.
