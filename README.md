@@ -34,8 +34,10 @@ This is the tidy dataset produced by my R script. It is included just for refere
 
 To view this file in a more friendly way, you can run the following code in R:
 
-	newdata2 <- read.table("tidydata.txt", header=TRUE)
-	View(newdata2)
+```R
+newdata2 <- read.table("tidydata.txt", header=TRUE)
+View(newdata2)
+```
 
 * README.md
 
@@ -56,13 +58,16 @@ and unzip it under the same folder with the "run_analysis.R" file.
 
 3. Start R. Install any packages if necessary, i.e., run the following code if you need:
 
-	install.packages("plyr")
-	install.packages("reshape2")
+```R
+		install.packages("plyr")
+		install.packages("reshape2")
+```
 
 4. Change the working directory to the foler containing the "run_analysis.R" file using code:
 
-	# you need to change the path into your own path
-	setwd("path/to/your/folder")
+		```R
+		setwd("path/to/your/folder")
+		```
 
 5. Run the "run_analysis.R" script in R.
 
